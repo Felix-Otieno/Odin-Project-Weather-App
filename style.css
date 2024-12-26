@@ -1,0 +1,72 @@
+body {
+    background-image: url(./back.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    text-align: center;
+    margin-top: 25rem;
+    height: 50vh;
+    width: 40%;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(./inn.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    padding: 5em;
+    display: flex;
+    flex-direction: column;
+}
+
+.container > h1 {
+    color: #3c3c4c;
+    font-size: 3rem;
+    font-family: cursive;
+}
+
+.container > input {
+    border: 2px solid #ecf043;
+    height: 5vh;
+    width: 50%;
+    margin-bottom: 3rem;
+    border-radius: 30px;
+    margin-left: 15rem;
+}
+
+.container > input[placeholder] {
+    text-align: center;
+    color: white;
+    background-color: #10bfd3;
+    font-size: 2rem;
+}
+
+.container > button {
+     border-radius: 2rem;
+     height: 3vh;
+     width: 20%;
+     margin-left: 25rem;
+     background-color: #10bfd3;
+     font-size: 1.3rem;
+     text-align: center;
+}
+
+.container > button:hover {
+    background-color: #20227f;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
